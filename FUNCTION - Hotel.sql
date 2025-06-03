@@ -25,3 +25,4 @@ END$$
 DELIMITER ;
 
 SELECT CalcularTotalReserva (NOW(), "2025-06-26 10:30:00", 4, 80000.00) AS ValorHotel;
+

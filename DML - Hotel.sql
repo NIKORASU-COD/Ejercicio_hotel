@@ -6,3 +6,7 @@ CALL InsertarCliente("1023456789", "Camila", "Rodríguez", 25);
 CALL InsertarCliente("1039876543", "Juan", "González", 30);
 
 CALL InsertarReserva (NOW(), "2025-06-26 10:30:00", 4, 3, "1014480875");
+CALL InsertarReserva (NOW(), "2025-06-26 10:30:00", 5, 4, "1023456789");
+
+CALL InsertarReserva (NOW(), "2025-06-26 10:30:00", -8, 1, "1039876543");
+
